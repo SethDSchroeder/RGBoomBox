@@ -181,15 +181,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="99.06" y2="0" width="0.1524" layer="20"/>
-<wire x1="99.06" y1="0" x2="99.06" y2="1.27" width="0.1524" layer="20"/>
-<wire x1="99.06" y1="1.27" x2="101.6" y2="3.81" width="0.1524" layer="20"/>
-<wire x1="101.6" y1="3.81" x2="101.6" y2="38.1" width="0.1524" layer="20"/>
-<wire x1="101.6" y1="38.1" x2="99.06" y2="40.64" width="0.1524" layer="20"/>
-<wire x1="99.06" y1="40.64" x2="99.06" y2="50.8" width="0.1524" layer="20"/>
-<wire x1="99.06" y1="50.8" x2="96.52" y2="53.34" width="0.1524" layer="20"/>
-<wire x1="96.52" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="20"/>
-<wire x1="0" y1="53.34" x2="0" y2="0" width="0.1524" layer="20"/>
+<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
+<wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
+<wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
+<wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
@@ -714,75 +709,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
-This library contains electrically-functional connectors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="2X8-SHROUDED_LOCK">
-<wire x1="-2.775" y1="9.525" x2="-2.775" y2="8.255" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="13.91" x2="4.5" y2="-13.91" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="-13.91" x2="-4.5" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="-2.2" x2="-4.5" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="2.2" x2="-4.5" y2="13.91" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="13.91" x2="4.4" y2="13.91" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="-13.91" x2="-4.5" y2="-13.91" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="12.81" x2="3.4" y2="12.81" width="0.2032" layer="51"/>
-<wire x1="3.4" y1="12.81" x2="3.4" y2="-12.81" width="0.2032" layer="51"/>
-<wire x1="-3.4" y1="-12.81" x2="3.4" y2="-12.81" width="0.2032" layer="51"/>
-<wire x1="-4.5" y1="2.2" x2="-3" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="-3" y1="2.2" x2="-3" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-2.2" x2="-4.5" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="12.81" x2="-3.4" y2="2.2" width="0.2032" layer="51"/>
-<wire x1="-3.4" y1="-12.81" x2="-3.4" y2="-2.2" width="0.2032" layer="51"/>
-<pad name="1" x="-1.397" y="8.89" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="2" x="1.397" y="8.89" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="3" x="-1.397" y="6.35" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="4" x="1.397" y="6.35" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="5" x="-1.397" y="3.81" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="6" x="1.397" y="3.81" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="7" x="-1.397" y="1.27" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="8" x="1.397" y="1.27" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="9" x="-1.397" y="-1.27" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="10" x="1.397" y="-1.27" drill="1.016" diameter="1.8796" rot="R270"/>
-<rectangle x1="-1.524" y1="8.636" x2="-1.016" y2="9.144" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="8.636" x2="1.524" y2="9.144" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="6.096" x2="1.524" y2="6.604" layer="51" rot="R270"/>
-<rectangle x1="-1.524" y1="6.096" x2="-1.016" y2="6.604" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="3.556" x2="1.524" y2="4.064" layer="51" rot="R270"/>
-<rectangle x1="-1.524" y1="3.556" x2="-1.016" y2="4.064" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51" rot="R270"/>
-<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51" rot="R270"/>
-<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51" rot="R270"/>
-<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51" rot="R270"/>
-<wire x1="-2.813" y1="9.525" x2="-2.813" y2="8.255" width="0.2032" layer="22"/>
-<pad name="11" x="-1.397" y="-3.81" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="12" x="1.397" y="-3.81" drill="1.016" diameter="1.8796" rot="R270"/>
-<rectangle x1="1.016" y1="-4.064" x2="1.524" y2="-3.556" layer="51" rot="R270"/>
-<rectangle x1="-1.524" y1="-4.064" x2="-1.016" y2="-3.556" layer="51" rot="R270"/>
-<pad name="13" x="-1.397" y="-6.35" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="14" x="1.397" y="-6.35" drill="1.016" diameter="1.8796" rot="R270"/>
-<rectangle x1="1.016" y1="-6.604" x2="1.524" y2="-6.096" layer="51" rot="R270"/>
-<rectangle x1="-1.524" y1="-6.604" x2="-1.016" y2="-6.096" layer="51" rot="R270"/>
-<pad name="15" x="-1.397" y="-8.89" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="16" x="1.397" y="-8.89" drill="1.016" diameter="1.8796" rot="R270"/>
-<rectangle x1="1.016" y1="-9.144" x2="1.524" y2="-8.636" layer="51" rot="R270"/>
-<rectangle x1="-1.524" y1="-9.144" x2="-1.016" y2="-8.636" layer="51" rot="R270"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -984,83 +910,8 @@ design rules under a new name.</description>
 <attribute name="DESIGNER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="REV" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="2X8-SHROUDED_LOCK" value="" x="-106.68" y="12.7" smashed="yes"/>
 </elements>
 <signals>
-<signal name="R1">
-<contactref element="J1" pad="1"/>
-<contactref element="B1" pad="24"/>
-<wire x1="-108.077" y1="21.59" x2="93.98" y2="45.72" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="G1">
-<contactref element="J1" pad="2"/>
-<contactref element="B1" pad="25"/>
-<wire x1="-105.283" y1="21.59" x2="96.52" y2="45.72" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="B1">
-<contactref element="J1" pad="3"/>
-<contactref element="B1" pad="26"/>
-<wire x1="-108.077" y1="19.05" x2="93.98" y2="43.18" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="R2">
-<contactref element="J1" pad="5"/>
-<contactref element="B1" pad="27"/>
-<wire x1="-108.077" y1="16.51" x2="96.52" y2="43.18" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="G2">
-<contactref element="J1" pad="6"/>
-<contactref element="B1" pad="28"/>
-<wire x1="-105.283" y1="16.51" x2="93.98" y2="40.64" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="E_1">
-<contactref element="J1" pad="8"/>
-</signal>
-<signal name="B2">
-<contactref element="J1" pad="7"/>
-<contactref element="B1" pad="29"/>
-<wire x1="-108.077" y1="13.97" x2="96.52" y2="40.64" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ADDR_A">
-<contactref element="J1" pad="9"/>
-<contactref element="B1" pad="A0"/>
-<wire x1="50.8" y1="2.54" x2="-108.077" y2="11.43" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ADDR_B">
-<contactref element="J1" pad="10"/>
-<contactref element="B1" pad="A1"/>
-<wire x1="53.34" y1="2.54" x2="-105.283" y2="11.43" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ADDR_D">
-<contactref element="J1" pad="12"/>
-<contactref element="B1" pad="A3"/>
-<wire x1="58.42" y1="2.54" x2="-105.283" y2="8.89" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ADDR_C">
-<contactref element="J1" pad="11"/>
-<contactref element="B1" pad="A2"/>
-<wire x1="55.88" y1="2.54" x2="-108.077" y2="8.89" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="CLK">
-<contactref element="J1" pad="13"/>
-<contactref element="B1" pad="11"/>
-<wire x1="34.29" y1="50.8" x2="-108.077" y2="6.35" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="OE">
-<contactref element="J1" pad="15"/>
-<contactref element="B1" pad="9"/>
-<wire x1="39.37" y1="50.8" x2="-108.077" y2="3.81" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="E_2">
-<contactref element="J1" pad="16"/>
-</signal>
-<signal name="LAT">
-<contactref element="J1" pad="14"/>
-<contactref element="B1" pad="10"/>
-<wire x1="36.83" y1="50.8" x2="-105.283" y2="6.35" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND">
-<contactref element="J1" pad="4"/>
-</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
